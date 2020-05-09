@@ -12,6 +12,7 @@ const extensions = [".mjs", ".js", ".json", ".svelte", ".html"];
 const mainFields = ["svelte", "module", "browser", "main"];
 
 module.exports = {
+  webpack --mode=development,
   client: {
     entry: config.client.entry(),
     output: config.client.output(),
